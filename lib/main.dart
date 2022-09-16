@@ -64,11 +64,9 @@ class MyHomePage extends StatelessWidget {
             color: Colors.purpleAccent,
             child: Column(
               children: [
-                Expanded(
-                  child: Image.asset(
-                    'assets/images/soccer1.png',
-                    fit: BoxFit.cover,
-                  ),
+                Image.asset(
+                  'assets/images/soccer1.png',
+                  fit: BoxFit.cover,
                 ),
                 Container(
                   padding: EdgeInsets.all(12),
